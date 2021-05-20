@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="testscript.Stage_web_aurofit_MAINPAGE">
+        <methods>
+          <include name="stage_web_aurofit_MAINPAGE_SignUp_enterCouponcode_Checkout_Subscribe"/>
+          <include name="closeApplication"/>
+          <include name="stage_web_aurofit_MAINPAGE_SignUp_with_Already_Registed_Email"/>
+          <include name="clOse"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testscript.Stage_web_aurofit_MAINPAGE -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
